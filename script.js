@@ -36,4 +36,4 @@ const fechaInicio = new Date('2024-06-22');
 const meses = calcularMeses(fechaInicio);
 
 // Actualiza el contenido del <h1> con el número de meses
-document.getElementById('message').textContent = `Feliz ${meses} meses`;
+document.getElementById('message').textContent = `Feliz ${meses-1} meses`;
